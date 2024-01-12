@@ -4,10 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["Richard <kogunyale01@gmail.com>"]
 readme = "README.md"
-packages = [{include = "ollama_python"}]
+packages = [{include = "ollama-python"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 httpx = "^0.26.0"
 pre-commit = "^3.6.0"
 
